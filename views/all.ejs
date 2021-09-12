@@ -1,0 +1,11 @@
+  <%- include("header") -%>
+
+  <div class="box" id="heading">
+    <h1>All tasks</h1>
+    <% for(var i=0; i<newListItems.length; i++){ %>
+      <div class="item">
+        <p> <%= newListItems[i]%> </p>
+      </div>
+    <%}%>
+
+  </div>
